@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__.'/vendor/autoload.php';
 
 class RestfulServer {
 
@@ -73,7 +74,7 @@ class RestfulServer {
         }
 
 	 public function run(){
-
+	 	dump($this);
 	 }
 	
 }
